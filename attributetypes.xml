@@ -1,0 +1,52 @@
+<attributetypes>
+<attributetype>
+<name>strength</name>
+<replenishment><experiencecost>1</experiencecost></replenishment>
+<capacity><experiencecost>10</experiencecost><scalepower>0.3</scalepower></capacity>
+</attributetype>
+<attributetype>
+<name>wisdom</name>
+<replenishment><experiencecost>1</experiencecost></replenishment>
+<capacity><experiencecost>10</experiencecost><scalepower>0.3</scalepower></capacity>
+</attributetype>
+<attributetype>
+<name>agility</name>
+<replenishment><experiencecost>1</experiencecost></replenishment>
+<capacity><experiencecost>10</experiencecost><scalepower>0.3</scalepower></capacity>
+</attributetype>
+<attributetype>
+<name>perception</name>
+<replenishment><experiencecost>1</experiencecost></replenishment>
+<capacity><experiencecost>10</experiencecost><scalepower>0.3</scalepower></capacity>
+</attributetype>
+<attributetype>
+<name>quickness</name>
+<replenishment><experiencecost>1</experiencecost></replenishment>
+<capacity><experiencecost>10</experiencecost><scalepower>0.3</scalepower></capacity>
+</attributetype>
+<attributetype>
+<name>fire spell</name>
+<replenishment><experiencecost>1</experiencecost></replenishment>
+<capacity><experiencecost>10</experiencecost><scalepower>0.3</scalepower></capacity>
+</attributetype>
+<attributetype>
+<name>bane of the trapped</name>
+<replenishment><experiencecost>1</experiencecost></replenishment>
+<capacity><experiencecost>10</experiencecost><scalepower>0.3</scalepower></capacity>
+</attributetype>
+<attributetype>
+<name>intelligence on tal rasha amulet</name>
+<replenishment><experiencecost>1</experiencecost></replenishment>
+<capacity><experiencecost>10</experiencecost><scalepower>0.3</scalepower></capacity>
+</attributetype>
+<attributetype>
+<name>blacksmithing</name>
+<replenishment><experiencecost>1</experiencecost></replenishment>
+<capacity><experiencecost>10</experiencecost><scalepower>0.3</scalepower></capacity>
+</attributetype>
+<attributetype>
+<name>stall NPC level</name>
+<replenishment><experiencecost>1</experiencecost></replenishment>
+<capacity><experiencecost>10</experiencecost><scalepower>0.3</scalepower></capacity>
+</attributetype>
+</attributetypes>

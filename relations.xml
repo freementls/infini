@@ -1,0 +1,151 @@
+<stattype>
+<speedboost><value>$input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></speedboost>
+<text>+$speedboost speed</text>
+<cost><value>5 * signedpow($input, 2)</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<rollableon>socketable</rollableon>
+<rollableon>consumable</rollableon>
+<used resets="true">0</used>
+<slotfrequencies>
+<leftelbow>1</leftelbow><rightelbow>1</rightelbow>
+<sash>3</sash>
+<leftfoot>20</leftfoot><rightfoot>20</rightfoot>
+</slotfrequencies>
+</stattype>
+<stattype>
+<maximumdurability><value>$input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></maximumdurability>
+<durability><value>rand(0, $maximumdurability)</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></durability>
+<text>$durability/$maximumdurability durability</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<requiredon>wearable</requiredon>
+<used resets="true">0</used>
+</stattype>
+<stattype>
+<weight><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></weight>
+<text>$weight &lt;abbr title="Newtons"&gt;N&lt;/abbr&gt;</text>
+<cost><value>-1 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<used resets="true">38</used>
+</stattype>
+<stattype>
+<pierceresistance><value>$input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></pierceresistance>
+<text>$pierceresistance pierceresistance</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<used resets="true">38</used>
+</stattype>
+<stattype>
+<slashresistance><value>0.5 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></slashresistance>
+<text>$slashresistance slashresistance</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<used resets="true">38</used>
+</stattype>
+<stattype>
+<bluntresistance><value>$input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></bluntresistance>
+<text>$bluntresistance bluntresistance</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<used resets="true">38</used>
+</stattype>
+<stattype>
+<name>thin armor</name>
+<pierceresistance><value>0.1 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></pierceresistance>
+<slashresistance><value>0.5 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></slashresistance>
+<bluntresistance><value>$input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></bluntresistance>
+<maximumdurability><value>$input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></maximumdurability>
+<durability><value>rand(0, $maximumdurability)</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></durability>
+<weight><value>$input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></weight>
+<text>$pierceresistance pierceresistance, $slashresistance slashresistance, $bluntresistance bluntresistance, $durability/$maximumdurability durability, $weight &lt;abbr title="Newtons"&gt;N&lt;/abbr&gt;</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<used resets="true">38</used>
+</stattype>
+<stattype>
+<name>medium armor</name>
+<pierceresistance><value>0.5 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></pierceresistance>
+<slashresistance><value>$input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></slashresistance>
+<bluntresistance><value>2 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></bluntresistance>
+<maximumdurability><value>2 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></maximumdurability>
+<durability><value>rand(0, $maximumdurability)</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></durability>
+<weight><value>3 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></weight>
+<text>$pierceresistance pierceresistance, $slashresistance slashresistance, $bluntresistance bluntresistance, $durability/$maximumdurability durability, $weight &lt;abbr title="Newtons"&gt;N&lt;/abbr&gt;</text>
+<cost><value>3 * $input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<used resets="true">38</used>
+</stattype>
+<stattype>
+<name>thick armor</name>
+<pierceresistance><value>$input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></pierceresistance>
+<slashresistance><value>3 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></slashresistance>
+<bluntresistance><value>2 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></bluntresistance>
+<maximumdurability><value>4 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></maximumdurability>
+<durability><value>rand(0, $maximumdurability)</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></durability>
+<weight><value>5 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></weight>
+<text>$pierceresistance pierceresistance, $slashresistance slashresistance, $bluntresistance bluntresistance, $durability/$maximumdurability durability, $weight &lt;abbr title="Newtons"&gt;N&lt;/abbr&gt;</text>
+<cost><value>8 * $input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<used resets="true">38</used>
+</stattype>
+<stattype>
+<name>mempo legendary stat</name>
+<attackspeed><value>$input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></attackspeed>
+<critchance><value>0.5 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></critchance>
+<allresist><value>10 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></allresist>
+<maximumdurability><value>4 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></maximumdurability>
+<durability><value>rand(0, $maximumdurability)</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></durability>
+<weight><value>5 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></weight>
+<text>mempo of twilight (by crafting? by world area? by NPC? for legendary (more predictable) stats)</text>
+<cost><value>10 * $input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<used resets="true">38</used>
+</stattype>
+<stattype>
+<damage><value>$input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></damage>
+<text>$damage damage</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<used resets="true">0</used>
+</stattype>
+<stattype>
+<damagetodemons><value>2 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></damagetodemons>
+<text>$damagetodemons damage to demons</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<used resets="true">6</used>
+</stattype>
+<creaturetype>
+<name>unipeg rider</name>
+<eats><food>magic</food><number>100</number></eats>
+<emigrationrate><value>0.1</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>deaths</with></relation><relation><type>direct</type><with>killed</with></relation></relations></emigrationrate>
+<birthrate>0.1</birthrate>
+<deathrate>0.02</deathrate>
+<attack><value>15 * $difficulty</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>kills</with></relation></relations></attack>
+<defense><value>6 * $difficulty</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>killed</with></relation></relations></defense>
+<movement>12 * $difficulty</movement>
+<armor><value>3</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>killed</with></relation></relations></armor>
+<magic>6 * $difficulty</magic>
+<kills resets="true">65</kills>
+<killed resets="true">20</killed>
+<births resets="true">10</births>
+<deaths resets="true">0</deaths>
+<number>0</number>
+</creaturetype>
+<creaturetype>
+<name>orc</name>
+<eats><food>bunny</food><number>2</number></eats>
+<emigrationrate>0.1</emigrationrate>
+<birthrate>0.3</birthrate>
+<deathrate>0.1</deathrate>
+<attack><value>6 * $difficulty</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>kills</with></relation></relations></attack>
+<defense><value>3 * sqrt($difficulty)</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>killed</with></relation></relations></defense>
+<movement>4 * sqrt($difficulty)</movement>
+<armor><value>5 * $difficulty</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>killed</with></relation></relations></armor>
+<magic>1</magic>
+<kills resets="true">3</kills>
+<killed resets="true">10</killed>
+<births resets="true">0</births>
+<deaths resets="true">0</deaths>
+<number>0</number>
+</creaturetype>

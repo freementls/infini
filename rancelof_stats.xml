@@ -1,0 +1,54 @@
+<stats>
+<stat>
+<text>+{attackboost} attack</text>
+<attackboost>{x}</attackboost>
+<cost>5 * signedpow({x}, 2)</cost>
+<rollableon>item</rollableon>
+<rollableon>player</rollableon>
+<rollableon>enemy</rollableon>
+</stat>
+<stat>
+<text>+{defenseboost} defense</text>
+<defenseboost>{x}</defenseboost>
+<cost>5 * signedpow({x}, 2)</cost>
+<rollableon>item</rollableon>
+<rollableon>player</rollableon>
+<rollableon>enemy</rollableon>
+</stat>
+<stat>
+<text>+{speedboost} speed</text>
+<speedboost>{x}</speedboost>
+<cost>5 * signedpow({x}, 2)</cost>
+<rollableon>item</rollableon>
+<rollableon>player</rollableon>
+<rollableon>enemy</rollableon>
+</stat>
+<stat>
+<text>{cooldownreduction} <abbr title="cooldown reduction">CR</abbr></text>
+<cooldownreduction>0.1 * {x}</cooldownreduction>
+<cost>25 * {x}^2</cost>
+<rollableon>item</rollableon>
+</stat>
+<stat>
+<text>{durability}/{maximumdurability} <abbr title="durability">dur.</abbr></text>
+<durability>{x}</durability>
+<maximumdurability>{x}</maximumdurability>
+<cost>{x}</cost>
+<rollableon>item</rollableon>
+</stat>
+<stat>
+<text>{armor} armor</text>
+<armor>{x}</armor>
+<cost>{x}</cost>
+<rollableon>item</rollableon>
+</stat>
+<stat>
+<text>{damage} damage</text>
+<damage>{x}</damage>
+<cost>{x}</cost>
+<rollableon>item</rollableon>
+</stat>
+<set>
+<text>guardian</text>
+</set>
+</stats>

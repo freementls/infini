@@ -1,0 +1,62 @@
+<balance>
+<stats>
+<stat>
+<attackboost multiplier="1" formula="">$input</attackboost>
+<text>+$attackboost attack</text>
+<cost multiplier="1">5 * signedpow($input, 2)</cost>
+<rollableon>item</rollableon>
+<rollableon>player</rollableon>
+<rollableon>enemy</rollableon>
+</stat>
+<stat>
+<defenseboost multiplier="1">$input</defenseboost>
+<text>+$defenseboost defense</text>
+<cost multiplier="1">5 * signedpow($input, 2)</cost>
+<rollableon>item</rollableon>
+<rollableon>player</rollableon>
+<rollableon>enemy</rollableon>
+</stat>
+<stat>
+<speedboost multiplier="1">$input</speedboost>
+<text>+$speedboost speed</text>
+<cost multiplier="1">5 * signedpow($input, 2)</cost>
+<rollableon>item</rollableon>
+<rollableon>player</rollableon>
+<rollableon>enemy</rollableon>
+</stat>
+<stat>
+<cooldownreduction multiplier="1">0.1 * $input</cooldownreduction>
+<text>$cooldownreduction <abbr title="cooldown reduction">CR</abbr></text>
+<cost multiplier="1">25 * signedpow($input, 2)</cost>
+<rollableon>item</rollableon>
+</stat>
+<stat>
+<durability multiplier="1">$input</durability>
+<maximumdurability multiplier="1">$input</maximumdurability>
+<text>$durability/$maximumdurability durability</text>
+<cost multiplier="1">$input</cost>
+<rollableon>item</rollableon>
+</stat>
+<stat>
+<armor multiplier="1">$input</armor>
+<text>$armor armor</text>
+<cost multiplier="1">$input</cost>
+<rollableon>item</rollableon>
+</stat>
+<stat>
+<damage multiplier="1">$input</damage>
+<text>$damage damage</text>
+<cost multiplier="1">$input</cost>
+<rollableon>item</rollableon>
+</stat>
+<set>
+<text>guardian</text>
+</set>
+</stats>
+<attacktype>
+<name>slice</name>
+</attacktype>
+<attacktype>
+<name>stab</name>
+</attacktype>
+</balance>

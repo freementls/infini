@@ -1,0 +1,121 @@
+<world>
+<sizex>1200</sizex>
+<sizey>800</sizey>
+<area>
+<name>area 1</name>
+<plants>10</plants>
+<minerals>20</minerals>
+<magic>20</magic>
+<x>200</x>
+<y>600</y>
+<creature><name>wolf</name></creature>
+<creature><name>wolf</name></creature>
+<creature><name>bunny</name></creature>
+<creature><name>bunny</name></creature>
+<creature><name>bunny</name></creature>
+<adjacent>area 2</adjacent>
+<adjacent>area 3</adjacent>
+</area>
+<area>
+<name>area 2</name>
+<plants>100</plants>
+<minerals>15</minerals>
+<magic>30</magic>
+<x>400</x>
+<y>600</y>
+<creature><name>wolf</name></creature>
+<creature><name>bunny</name></creature>
+<creature><name>bunny</name></creature>
+<creature><name>bunny</name></creature>
+<creature><name>bunny</name></creature>
+<adjacent>area 1</adjacent>
+<adjacent>area 5</adjacent>
+</area>
+<area>
+<name>area 3</name>
+<plants>100</plants>
+<minerals>120</minerals>
+<magic>10</magic>
+<x>100</x>
+<y>100</y>
+<adjacent>area 1</adjacent>
+<adjacent>area 4</adjacent>
+</area>
+<area>
+<name>area 4</name>
+<plants>100</plants>
+<minerals>150</minerals>
+<magic>12</magic>
+<x>250</x>
+<y>200</y>
+<adjacent>area 3</adjacent>
+<adjacent>area 5</adjacent>
+</area>
+<area>
+<name>area 5</name>
+<plants>60</plants>
+<minerals>230</minerals>
+<magic>0</magic>
+<x>400</x>
+<y>300</y>
+<adjacent>area 2</adjacent>
+<adjacent>area 4</adjacent>
+<adjacent>area 6</adjacent>
+<adjacent>area 8</adjacent>
+</area>
+<area>
+<name>area 6</name>
+<plants>40</plants>
+<minerals>220</minerals>
+<magic>5</magic>
+<x>550</x>
+<y>400</y>
+<adjacent>area 5</adjacent>
+<adjacent>area 7</adjacent>
+<adjacent>area 8</adjacent>
+</area>
+<area>
+<name>area 7</name>
+<plants>130</plants>
+<minerals>70</minerals>
+<magic>300</magic>
+<x>700</x>
+<y>500</y>
+<adjacent>area 2</adjacent>
+<adjacent>area 6</adjacent>
+<adjacent>area 9</adjacent>
+</area>
+<area>
+<name>area 8</name>
+<plants>20</plants>
+<minerals>60</minerals>
+<magic>420</magic>
+<x>600</x>
+<y>200</y>
+<adjacent>area 5</adjacent>
+<adjacent>area 6</adjacent>
+<adjacent>area 9</adjacent>
+<adjacent>area 10</adjacent>
+</area>
+<area>
+<name>area 9</name>
+<plants>15</plants>
+<minerals>80</minerals>
+<magic>360</magic>
+<x>800</x>
+<y>400</y>
+<adjacent>area 7</adjacent>
+<adjacent>area 8</adjacent>
+<adjacent>area 10</adjacent>
+</area>
+<area>
+<name>area 10</name>
+<plants>0</plants>
+<minerals>35</minerals>
+<magic>170</magic>
+<x>1000</x>
+<y>200</y>
+<adjacent>area 8</adjacent>
+<adjacent>area 9</adjacent>
+</area>
+</world>

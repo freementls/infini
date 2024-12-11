@@ -1,0 +1,34 @@
+<world>
+<area>
+<name>area 1</name>
+<plants>10</plants>
+<creature><name>wolf</name></creature>
+<creature><name>wolf</name></creature>
+<creature><name>bunny</name></creature>
+<creature><name>bunny</name></creature>
+<creature><name>bunny</name></creature>
+</area>
+<area>
+<name>area 2</name>
+<plants>100</plants>
+<creature><name>wolf</name></creature>
+<creature><name>bunny</name></creature>
+<creature><name>bunny</name></creature>
+<creature><name>bunny</name></creature>
+<creature><name>bunny</name></creature>
+</area>
+<creaturetype>
+<name>wolf</name>
+<eats><name>bunny</name><number>3</number></eats>
+<emigrationrate>0.5</emigrationrate>
+<birthrate>0.5</birthrate>
+<deathrate>0.2</deathrate>
+</creaturetype>
+<creaturetype>
+<name>bunny</name>
+<eats><name>plants</name><number>1</number></eats>
+<emigrationrate>0.1</emigrationrate>
+<birthrate>1</birthrate>
+<deathrate>0.2</deathrate>
+</creaturetype>
+</world>

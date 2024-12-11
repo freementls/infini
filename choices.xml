@@ -1,0 +1,14 @@
+<choices>
+<choice player="player1">1</choice>
+<choice player="player1">1</choice>
+<choice player="player2">1</choice>
+<choice player="player1">2</choice>
+<choice player="player2">3</choice>
+<choice player="player1">3</choice>
+<choice player="player2">1</choice>
+<choice player="player1">2</choice>
+<choice player="player2">3</choice>
+<choice player="player1">1</choice>
+<choice player="player2">2</choice>
+<choice player="player1">3</choice>
+</choices>

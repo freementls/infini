@@ -1,0 +1,20 @@
+<weapontypes>
+<weapontype>
+<name>standard laser</name>
+<range>10000</range>
+<damage>5</damage>
+<recharge>5</recharge>
+</weapontype>
+<weapontype>
+<name>standard missile</name>
+<range>2000</range>
+<damage>50</damage>
+<recharge>50</recharge>
+</weapontype>
+<weapontype>
+<name>standard fighter</name>
+<range>5000</range>
+<damage>25</damage>
+<recharge>25</recharge>
+</weapontype>
+</weapontypes>

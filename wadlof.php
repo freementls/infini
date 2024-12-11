@@ -4,8 +4,10 @@
 // damage ranges? (stat ranges in general) to make gameplay more unpredictable (cheap thrills)
 // multiple player characters capture enemies that become player characters... ah yeah
 
-include('../LOM/O.php');
-error_reporting(0);
+define('DS', DIRECTORY_SEPARATOR);
+if(!include('..' . DS . 'LOM' . DS . 'O.php')) {
+	print('<a href="https://www.phpclasses.org/package/12467-PHP-Query-XML-documents-to-extract-content-by-name.html">LOM</a> is required');exit(0);
+}
 
 //error_reporting(0);
 ini_set('xdebug.var_display_max_data', '5000');

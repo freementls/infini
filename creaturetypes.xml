@@ -1,0 +1,100 @@
+<creaturetypes>
+<creaturetype>
+<name>unipeg rider</name>
+<eats><food>magic</food><number>100</number></eats>
+<emigrationrate><value>0.1</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>deaths</with></relation><relation><type>direct</type><with>killed</with></relation></relations></emigrationrate>
+<birthrate>0.1</birthrate>
+<deathrate>0.02</deathrate>
+<attack><value>15 * $difficulty</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>kills</with></relation></relations></attack>
+<defense><value>6 * $difficulty</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>killed</with></relation></relations></defense>
+<movement>12 * $difficulty</movement>
+<armor><value>3</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>killed</with></relation></relations></armor>
+<magic>6 * $difficulty</magic>
+<kills resets="true">65</kills>
+<killed resets="true">20</killed>
+<births resets="true">10</births>
+<deaths resets="true">0</deaths>
+<number>0</number>
+</creaturetype>
+<creaturetype>
+<name>orc</name>
+<eats><food>bunny</food><number>2</number></eats>
+<emigrationrate>0.1</emigrationrate>
+<birthrate>0.3</birthrate>
+<deathrate>0.1</deathrate>
+<attack><value>6 * $difficulty</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>kills</with></relation></relations></attack>
+<defense><value>3 * sqrt($difficulty)</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>killed</with></relation></relations></defense>
+<movement>4 * sqrt($difficulty)</movement>
+<armor><value>5 * $difficulty</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>killed</with></relation></relations></armor>
+<magic>1</magic>
+<kills resets="true">3</kills>
+<killed resets="true">10</killed>
+<births resets="true">0</births>
+<deaths resets="true">0</deaths>
+<number>0</number>
+</creaturetype>
+<creaturetype>
+<name>wolf</name>
+<eats><name>bunny</name><number>1</number></eats>
+<emigrationrate>0.5</emigrationrate>
+<birthrate>0.5</birthrate>
+<deathrate>0.2</deathrate>
+<attack><value>7 * $difficulty</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>kills</with></relation></relations></attack>
+<defense><value>1 * $difficulty</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>killed</with></relation></relations></defense>
+<movement>6 * sqrt($difficulty)</movement>
+<armor>0</armor>
+<magic>1</magic>
+<kills resets="true">0</kills>
+<killed resets="true">0</killed>
+<births resets="true">0</births>
+<deaths resets="true">0</deaths>
+</creaturetype>
+<creaturetype>
+<name>bunny</name>
+<eats><name>plants</name><number>1</number></eats>
+<emigrationrate>0.1</emigrationrate>
+<birthrate>1</birthrate>
+<deathrate>0.2</deathrate>
+<attack><value>1 * $difficulty</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>kills</with></relation></relations></attack>
+<defense><value>1 * $difficulty</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>killed</with></relation></relations></defense>
+<movement>3 * sqrt($difficulty)</movement>
+<armor>0</armor>
+<magic>0</magic>
+<kills resets="true">0</kills>
+<killed resets="true">0</killed>
+<births resets="true">0</births>
+<deaths resets="true">0</deaths>
+</creaturetype>
+<creaturetype>
+<name>golem</name>
+<eats><name>minerals</name><number>5</number></eats>
+<emigrationrate>0.01</emigrationrate>
+<birthrate>0.2</birthrate>
+<deathrate>0.05</deathrate>
+<attack><value>4 * $difficulty</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>kills</with></relation></relations></attack>
+<defense><value>2 * $difficulty</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>killed</with></relation></relations></defense>
+<movement>2 * sqrt($difficulty)</movement>
+<armor><value>12 * $difficulty</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>killed</with></relation></relations></armor>
+<magic><value>4 * $difficulty</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>killed</with></relation></relations></magic>
+<kills resets="true">0</kills>
+<killed resets="true">0</killed>
+<births resets="true">0</births>
+<deaths resets="true">0</deaths>
+</creaturetype>
+<creaturetype>
+<name>elf</name>
+<eats><name>plants</name><number>5</number></eats>
+<emigrationrate><value>0.1</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>deaths</with></relation><relation><type>direct</type><with>killed</with></relation></relations></emigrationrate>
+<birthrate>0.2</birthrate>
+<deathrate>0.05</deathrate>
+<attack><value>5 * $difficulty</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>kills</with></relation></relations></attack>
+<defense><value>5 * $difficulty</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>killed</with></relation></relations></defense>
+<movement>5 * sqrt($difficulty)</movement>
+<armor><value>2 * $difficulty</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>killed</with></relation></relations></armor>
+<magic><value>3 * $difficulty</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>killed</with></relation></relations></magic>
+<kills resets="true">0</kills>
+<killed resets="true">0</killed>
+<births resets="true">0</births>
+<deaths resets="true">0</deaths>
+</creaturetype>
+</creaturetypes>

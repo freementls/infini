@@ -1,0 +1,56 @@
+<attributes>
+<attribute>
+<name>strength</name>
+<current>3</current>
+<maximum>10</maximum>
+<experience>144</experience>
+</attribute>
+<attribute>
+<name>wisdom</name>
+<current>8</current>
+<maximum>8</maximum>
+<experience>18</experience>
+</attribute>
+<attribute>
+<name>agility</name>
+<current>6</current>
+<maximum>6</maximum>
+<experience>28</experience>
+</attribute>
+<attribute>
+<name>perception</name>
+<current>3</current>
+<maximum>12</maximum>
+<experience>211</experience>
+</attribute>
+<attribute>
+<name>fire spell</name>
+<current>1</current>
+<maximum>5</maximum>
+<experience>48</experience>
+</attribute>
+<attribute>
+<name>bane of the trapped</name>
+<current>1</current>
+<maximum>12</maximum>
+<experience>85355</experience>
+</attribute>
+<attribute>
+<name>intelligence on tal rasha amulet</name>
+<current>108</current>
+<maximum>222</maximum>
+<experience>59100</experience>
+</attribute>
+<attribute>
+<name>blacksmithing</name>
+<current>1</current>
+<maximum>10</maximum>
+<experience>78</experience>
+</attribute>
+<attribute>
+<name>stall NPC level</name>
+<current>1</current>
+<maximum>4</maximum>
+<experience>89</experience>
+</attribute>
+</attributes>

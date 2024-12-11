@@ -1,0 +1,748 @@
+<stattypes>
+<stattype>
+<currencyvalue><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></currencyvalue>
+<comment>how to reconcile this static currency value stat with a currency system where currency values are inherently relative?</comment>
+<text>$currencyvalue currency value</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<wearableslots>
+<head><intensity><value>15</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></head>
+<neck><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></neck>
+<leftshoulder><intensity><value>3</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshoulder>
+<rightshoulder><intensity><value>3</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshoulder>
+<leftelbow><intensity><value>2</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftelbow>
+<rightelbow><intensity><value>2</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightelbow>
+<leftwrist><intensity><value>3</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftwrist>
+<rightwrist><intensity><value>3</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightwrist>
+<lefthand><intensity><value>3</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></lefthand>
+<righthand><intensity><value>3</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></righthand>
+<leftcarried><intensity><value>3</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftcarried>
+<rightcarried><intensity><value>3</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightcarried>
+<finger1><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger1>
+<finger2><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger2>
+<finger3><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger3>
+<finger4><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger4>
+<finger5><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger5>
+<finger6><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger6>
+<finger7><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger7>
+<finger8><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger8>
+<finger9><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger9>
+<finger10><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger10>
+<sash><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></sash>
+<breast><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></breast>
+<gut><intensity><value>2</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></gut>
+<waist><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></waist>
+<leftthigh><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftthigh>
+<rightthigh><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightthigh>
+<leftknee><intensity><value>2</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftknee>
+<rightknee><intensity><value>2</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightknee>
+<leftshin><intensity><value>3</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshin>
+<rightshin><intensity><value>3</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshin>
+<leftfoot><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftfoot>
+<rightfoot><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightfoot>
+</wearableslots>
+<rollableon>socketable</rollableon>
+<rollableon>consumable</rollableon>
+<rollableon>container</rollableon>
+<used resets="true">0</used>
+</stattype>
+<stattype>
+<weight><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></weight>
+<text>$weight &lt;abbr title="Newtons"&gt;N&lt;/abbr&gt;</text>
+<cost><value>-1 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<wearableslots>
+<head><intensity><value>8</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></head>
+<neck><intensity><value>2.25</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></neck>
+<leftshoulder><intensity><value>3</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshoulder>
+<rightshoulder><intensity><value>3</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshoulder>
+<leftelbow><intensity><value>1.5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftelbow>
+<rightelbow><intensity><value>1.5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightelbow>
+<leftwrist><intensity><value>0.75</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftwrist>
+<rightwrist><intensity><value>0.75</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightwrist>
+<lefthand><intensity><value>0.1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></lefthand>
+<righthand><intensity><value>0.1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></righthand>
+<leftcarried><intensity><value>3</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftcarried>
+<rightcarried><intensity><value>3</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightcarried>
+<finger1><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger1>
+<finger2><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger2>
+<finger3><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger3>
+<finger4><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger4>
+<finger5><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger5>
+<finger6><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger6>
+<finger7><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger7>
+<finger8><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger8>
+<finger9><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger9>
+<finger10><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger10>
+<sash><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></sash>
+<breast><intensity><value>14</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></breast>
+<gut><intensity><value>14</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></gut>
+<waist><intensity><value>6</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></waist>
+<leftthigh><intensity><value>8</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftthigh>
+<rightthigh><intensity><value>8</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightthigh>
+<leftknee><intensity><value>2.5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftknee>
+<rightknee><intensity><value>2.5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightknee>
+<leftshin><intensity><value>3.5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshin>
+<rightshin><intensity><value>3.5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshin>
+<leftfoot><intensity><value>1.75</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftfoot>
+<rightfoot><intensity><value>1.75</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightfoot>
+</wearableslots>
+<rollableon>socketable</rollableon>
+<rollableon>consumable</rollableon>
+<rollableon>container</rollableon>
+<used resets="true">0</used>
+</stattype>
+<stattype>
+<pierceresistance><value>$input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></pierceresistance>
+<text>$pierceresistance pierce resistance (units?)</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<wearableslots>
+<head><intensity><value>40</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></head>
+<neck><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></neck>
+<leftshoulder><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshoulder>
+<rightshoulder><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshoulder>
+<leftelbow><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftelbow>
+<rightelbow><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightelbow>
+<leftwrist><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftwrist>
+<rightwrist><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightwrist>
+<lefthand><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></lefthand>
+<righthand><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></righthand>
+<leftcarried><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftcarried>
+<rightcarried><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightcarried>
+<finger1><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger1>
+<finger2><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger2>
+<finger3><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger3>
+<finger4><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger4>
+<finger5><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger5>
+<finger6><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger6>
+<finger7><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger7>
+<finger8><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger8>
+<finger9><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger9>
+<finger10><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger10>
+<sash><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></sash>
+<breast><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></breast>
+<gut><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></gut>
+<waist><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></waist>
+<leftthigh><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftthigh>
+<rightthigh><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightthigh>
+<leftknee><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftknee>
+<rightknee><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightknee>
+<leftshin><intensity><value>15</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshin>
+<rightshin><intensity><value>15</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshin>
+<leftfoot><intensity><value>15</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftfoot>
+<rightfoot><intensity><value>15</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightfoot>
+</wearableslots>
+<rollableon>socketable</rollableon>
+<rollableon>container</rollableon>
+<used resets="true">0</used>
+</stattype>
+<stattype>
+<slashresistance><value>0.5 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></slashresistance>
+<text>$slashresistance slash resistance (units?)</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<wearableslots>
+<head><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></head>
+<neck><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></neck>
+<leftshoulder><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshoulder>
+<rightshoulder><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshoulder>
+<leftelbow><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftelbow>
+<rightelbow><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightelbow>
+<leftwrist><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftwrist>
+<rightwrist><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightwrist>
+<lefthand><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></lefthand>
+<righthand><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></righthand>
+<leftcarried><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftcarried>
+<rightcarried><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightcarried>
+<finger1><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger1>
+<finger2><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger2>
+<finger3><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger3>
+<finger4><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger4>
+<finger5><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger5>
+<finger6><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger6>
+<finger7><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger7>
+<finger8><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger8>
+<finger9><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger9>
+<finger10><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger10>
+<sash><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></sash>
+<breast><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></breast>
+<gut><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></gut>
+<waist><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></waist>
+<leftthigh><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftthigh>
+<rightthigh><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightthigh>
+<leftknee><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftknee>
+<rightknee><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightknee>
+<leftshin><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshin>
+<rightshin><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshin>
+<leftfoot><intensity><value>15</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftfoot>
+<rightfoot><intensity><value>15</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightfoot>
+</wearableslots>
+<rollableon>socketable</rollableon>
+<rollableon>container</rollableon>
+<used resets="true">0</used>
+</stattype>
+<stattype>
+<impactresistance><value>$input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></impactresistance>
+<text>$impactresistance impact resistance (units?)</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<wearableslots>
+<head><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></head>
+<neck><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></neck>
+<leftshoulder><intensity><value>15</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshoulder>
+<rightshoulder><intensity><value>15</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshoulder>
+<leftelbow><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftelbow>
+<rightelbow><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightelbow>
+<leftwrist><intensity><value>4</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftwrist>
+<rightwrist><intensity><value>4</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightwrist>
+<lefthand><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></lefthand>
+<righthand><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></righthand>
+<leftcarried><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftcarried>
+<rightcarried><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightcarried>
+<finger1><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger1>
+<finger2><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger2>
+<finger3><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger3>
+<finger4><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger4>
+<finger5><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger5>
+<finger6><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger6>
+<finger7><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger7>
+<finger8><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger8>
+<finger9><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger9>
+<finger10><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger10>
+<sash><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></sash>
+<breast><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></breast>
+<gut><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></gut>
+<waist><intensity><value>4</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></waist>
+<leftthigh><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftthigh>
+<rightthigh><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightthigh>
+<leftknee><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftknee>
+<rightknee><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightknee>
+<leftshin><intensity><value>4</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshin>
+<rightshin><intensity><value>4</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshin>
+<leftfoot><intensity><value>2</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftfoot>
+<rightfoot><intensity><value>2</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightfoot>
+</wearableslots>
+<rollableon>socketable</rollableon>
+<rollableon>container</rollableon>
+<used resets="true">0</used>
+</stattype>
+<!--
+
+unique stats?
+
+<stattype>
+<name>mempo legendary stat</name>
+<attackspeed><value>$input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></attackspeed>
+<critchance><value>0.5 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></critchance>
+<allresist><value>10 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></allresist>
+<maximumdurability><value>4 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></maximumdurability>
+<durability><value>rand(0, $maximumdurability)</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></durability>
+<weight><value>5 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></weight>
+<text>mempo of twilight (by crafting? by world area? by NPC? for legendary (more predictable) stats)</text>
+<cost><value>10 * $input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<used resets="true">38</used>
+</stattype-->
+<stattype>
+<name>piercing attack experience</name>
+<current><value>2 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></current>
+<maximum><value>2 * positive_gaussian_centered_on(1) * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></maximum>
+<discoverthreshhold><value>0.5 * positive_gaussian_centered_on(1) * $input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></discoverthreshhold>
+<unlockthreshhold><value>1 * positive_gaussian_centered_on(1) * $input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></unlockthreshhold>
+<text>$current piercing attack experience</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<wearableslots>
+<head><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></head>
+<neck><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></neck>
+<leftshoulder><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshoulder>
+<rightshoulder><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshoulder>
+<leftelbow><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftelbow>
+<rightelbow><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightelbow>
+<leftwrist><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftwrist>
+<rightwrist><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightwrist>
+<lefthand><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></lefthand>
+<righthand><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></righthand>
+<leftcarried><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftcarried>
+<rightcarried><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightcarried>
+<finger1><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger1>
+<finger2><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger2>
+<finger3><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger3>
+<finger4><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger4>
+<finger5><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger5>
+<finger6><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger6>
+<finger7><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger7>
+<finger8><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger8>
+<finger9><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger9>
+<finger10><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger10>
+<sash><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></sash>
+<breast><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></breast>
+<gut><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></gut>
+<waist><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></waist>
+<leftthigh><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftthigh>
+<rightthigh><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightthigh>
+<leftknee><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftknee>
+<rightknee><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightknee>
+<leftshin><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshin>
+<rightshin><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshin>
+<leftfoot><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftfoot>
+<rightfoot><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightfoot>
+</wearableslots>
+<rollableon>socketable</rollableon>
+<rollableon>consumable</rollableon>
+<rollableon>container</rollableon>
+<used resets="true">0</used>
+</stattype>
+<stattype>
+<name>slashing attack experience</name>
+<current><value>2 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></current>
+<maximum><value>2 * positive_gaussian_centered_on(1) * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></maximum>
+<discoverthreshhold><value>0.5 * positive_gaussian_centered_on(1) * $input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></discoverthreshhold>
+<unlockthreshhold><value>1 * positive_gaussian_centered_on(1) * $input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></unlockthreshhold>
+<text>$current slashing attack experience</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<wearableslots>
+<head><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></head>
+<neck><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></neck>
+<leftshoulder><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshoulder>
+<rightshoulder><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshoulder>
+<leftelbow><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftelbow>
+<rightelbow><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightelbow>
+<leftwrist><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftwrist>
+<rightwrist><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightwrist>
+<lefthand><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></lefthand>
+<righthand><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></righthand>
+<leftcarried><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftcarried>
+<rightcarried><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightcarried>
+<finger1><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger1>
+<finger2><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger2>
+<finger3><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger3>
+<finger4><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger4>
+<finger5><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger5>
+<finger6><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger6>
+<finger7><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger7>
+<finger8><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger8>
+<finger9><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger9>
+<finger10><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger10>
+<sash><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></sash>
+<breast><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></breast>
+<gut><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></gut>
+<waist><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></waist>
+<leftthigh><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftthigh>
+<rightthigh><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightthigh>
+<leftknee><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftknee>
+<rightknee><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightknee>
+<leftshin><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshin>
+<rightshin><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshin>
+<leftfoot><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftfoot>
+<rightfoot><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightfoot>
+</wearableslots>
+<rollableon>socketable</rollableon>
+<rollableon>consumable</rollableon>
+<rollableon>container</rollableon>
+<used resets="true">0</used>
+</stattype>
+<stattype>
+<name>impact attack experience</name>
+<current><value>2 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></current>
+<maximum><value>2 * positive_gaussian_centered_on(1) * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></maximum>
+<discoverthreshhold><value>0.5 * positive_gaussian_centered_on(1) * $input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></discoverthreshhold>
+<unlockthreshhold><value>1 * positive_gaussian_centered_on(1) * $input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></unlockthreshhold>
+<text>$current impact attack experience</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<wearableslots>
+<head><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></head>
+<neck><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></neck>
+<leftshoulder><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshoulder>
+<rightshoulder><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshoulder>
+<leftelbow><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftelbow>
+<rightelbow><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightelbow>
+<leftwrist><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftwrist>
+<rightwrist><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightwrist>
+<lefthand><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></lefthand>
+<righthand><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></righthand>
+<leftcarried><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftcarried>
+<rightcarried><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightcarried>
+<finger1><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger1>
+<finger2><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger2>
+<finger3><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger3>
+<finger4><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger4>
+<finger5><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger5>
+<finger6><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger6>
+<finger7><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger7>
+<finger8><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger8>
+<finger9><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger9>
+<finger10><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger10>
+<sash><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></sash>
+<breast><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></breast>
+<gut><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></gut>
+<waist><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></waist>
+<leftthigh><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftthigh>
+<rightthigh><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightthigh>
+<leftknee><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftknee>
+<rightknee><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightknee>
+<leftshin><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshin>
+<rightshin><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshin>
+<leftfoot><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftfoot>
+<rightfoot><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightfoot>
+</wearableslots>
+<rollableon>socketable</rollableon>
+<rollableon>consumable</rollableon>
+<rollableon>container</rollableon>
+<used resets="true">0</used>
+</stattype>
+<stattype>
+<name>damage to demons experience</name>
+<current><value>2 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></current>
+<maximum><value>2 * positive_gaussian_centered_on(1) * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></maximum>
+<discoverthreshhold><value>0.5 * positive_gaussian_centered_on(1) * $input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></discoverthreshhold>
+<unlockthreshhold><value>1 * positive_gaussian_centered_on(1) * $input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></unlockthreshhold>
+<text>$current damage to demons experience</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<wearableslots>
+<head><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></head>
+<neck><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></neck>
+<leftshoulder><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshoulder>
+<rightshoulder><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshoulder>
+<leftelbow><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftelbow>
+<rightelbow><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightelbow>
+<leftwrist><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftwrist>
+<rightwrist><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightwrist>
+<lefthand><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></lefthand>
+<righthand><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></righthand>
+<leftcarried><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftcarried>
+<rightcarried><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightcarried>
+<finger1><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger1>
+<finger2><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger2>
+<finger3><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger3>
+<finger4><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger4>
+<finger5><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger5>
+<finger6><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger6>
+<finger7><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger7>
+<finger8><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger8>
+<finger9><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger9>
+<finger10><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger10>
+<sash><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></sash>
+<breast><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></breast>
+<gut><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></gut>
+<waist><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></waist>
+<leftthigh><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftthigh>
+<rightthigh><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightthigh>
+<leftknee><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftknee>
+<rightknee><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightknee>
+<leftshin><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshin>
+<rightshin><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshin>
+<leftfoot><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftfoot>
+<rightfoot><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightfoot>
+</wearableslots>
+<rollableon>socketable</rollableon>
+<rollableon>consumable</rollableon>
+<rollableon>container</rollableon>
+<used resets="true">0</used>
+</stattype>
+<stattype>
+<point>true</point>
+<pointlength><value>rand(0, $input)</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></pointlength>
+<pointbasesurface><value>rand(0, $input)</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></pointbasesurface>
+<comment>what about items with multiple spikes? and how does the player know how horny this stat is?</comment>
+<canpierce>true</canpierce>
+<text>pointed ($pointlength &lt;abbr title="centimeters"&gt;cm&lt;/abbr&gt; x $pointbasesurface &lt;abbr title="centimeters squared"&gt;cm&lt;sup&gt;2&lt;/sup&gt;&lt;/abbr&gt;)</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<wearableslots>
+<head><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></head>
+<neck><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></neck>
+<leftshoulder><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshoulder>
+<rightshoulder><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshoulder>
+<leftelbow><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftelbow>
+<rightelbow><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightelbow>
+<leftwrist><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftwrist>
+<rightwrist><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightwrist>
+<lefthand><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></lefthand>
+<righthand><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></righthand>
+<leftcarried><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftcarried>
+<rightcarried><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightcarried>
+<finger1><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger1>
+<finger2><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger2>
+<finger3><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger3>
+<finger4><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger4>
+<finger5><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger5>
+<finger6><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger6>
+<finger7><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger7>
+<finger8><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger8>
+<finger9><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger9>
+<finger10><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger10>
+<sash><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></sash>
+<breast><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></breast>
+<gut><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></gut>
+<waist><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></waist>
+<leftthigh><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftthigh>
+<rightthigh><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightthigh>
+<leftknee><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftknee>
+<rightknee><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightknee>
+<leftshin><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshin>
+<rightshin><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshin>
+<leftfoot><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftfoot>
+<rightfoot><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightfoot>
+</wearableslots>
+<rollableon>socketable</rollableon>
+<rollableon>container</rollableon>
+<used resets="true">0</used>
+</stattype>
+<stattype>
+<edge>true</edge>
+<edgelength><value>10 * rand(0, $input)</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></edgelength>
+<edgebasesurface><value>10 * rand(0, $input)</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></edgebasesurface>
+<canslash>true</canslash>
+<text>edged ($edgelength &lt;abbr title="centimeters"&gt;cm&lt;/abbr&gt; x $edgebasesurface &lt;abbr title="centimeters squared"&gt;cm&lt;sup&gt;2&lt;/sup&gt;&lt;/abbr&gt;)</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<wearableslots>
+<head><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></head>
+<neck><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></neck>
+<leftshoulder><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshoulder>
+<rightshoulder><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshoulder>
+<leftelbow><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftelbow>
+<rightelbow><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightelbow>
+<leftwrist><intensity><value>15</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftwrist>
+<rightwrist><intensity><value>15</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightwrist>
+<lefthand><intensity><value>15</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></lefthand>
+<righthand><intensity><value>15</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></righthand>
+<leftcarried><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftcarried>
+<rightcarried><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightcarried>
+<finger1><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger1>
+<finger2><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger2>
+<finger3><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger3>
+<finger4><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger4>
+<finger5><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger5>
+<finger6><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger6>
+<finger7><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger7>
+<finger8><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger8>
+<finger9><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger9>
+<finger10><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger10>
+<sash><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></sash>
+<breast><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></breast>
+<gut><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></gut>
+<waist><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></waist>
+<leftthigh><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftthigh>
+<rightthigh><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightthigh>
+<leftknee><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftknee>
+<rightknee><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightknee>
+<leftshin><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshin>
+<rightshin><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshin>
+<leftfoot><intensity><value>15</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftfoot>
+<rightfoot><intensity><value>15</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightfoot>
+</wearableslots>
+<rollableon>socketable</rollableon>
+<rollableon>container</rollableon>
+<used resets="true">0</used>
+</stattype>
+<stattype>
+<face>true</face>
+<facesurface><value>100 * $input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></facesurface>
+<canimpact>true</canimpact>
+<text>faced ($facesurface &lt;abbr title="centimeters squared"&gt;cm&lt;sup&gt;2&lt;/sup&gt;&lt;/abbr&gt;)</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<wearableslots>
+<head><intensity><value>3</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></head>
+<neck><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></neck>
+<leftshoulder><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshoulder>
+<rightshoulder><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshoulder>
+<leftelbow><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftelbow>
+<rightelbow><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightelbow>
+<leftwrist><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftwrist>
+<rightwrist><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightwrist>
+<lefthand><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></lefthand>
+<righthand><intensity><value>5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></righthand>
+<leftcarried><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftcarried>
+<rightcarried><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightcarried>
+<finger1><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger1>
+<finger2><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger2>
+<finger3><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger3>
+<finger4><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger4>
+<finger5><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger5>
+<finger6><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger6>
+<finger7><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger7>
+<finger8><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger8>
+<finger9><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger9>
+<finger10><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger10>
+<sash><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></sash>
+<breast><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></breast>
+<gut><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></gut>
+<waist><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></waist>
+<leftthigh><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftthigh>
+<rightthigh><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightthigh>
+<leftknee><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftknee>
+<rightknee><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightknee>
+<leftshin><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshin>
+<rightshin><intensity><value>1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshin>
+<leftfoot><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftfoot>
+<rightfoot><intensity><value>10</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightfoot>
+</wearableslots>
+<rollableon>socketable</rollableon>
+<rollableon>container</rollableon>
+<used resets="true">0</used>
+</stattype>
+<stattype>
+<surface><value>$input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></surface>
+<canimpact>true</canimpact>
+<text>$surface &lt;abbr title="centimeters squared"&gt;cm&lt;sup&gt;2&lt;/sup&gt;&lt;/abbr&gt;</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<comment>what to do for surface relations since the game uses these values relative to each other? presumably, once proper physics approximations are in place then that extra dimension will require relations</comment>
+<comment>should a surface to volume ratio come into calculations of damage inflicted from different body parts?</comment>
+<requiredon>wearable</requiredon>
+<rollableon>wearable</rollableon>
+<wearableslots>
+<head><intensity><value>600</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></head>
+<neck><intensity><value>225</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></neck>
+<leftshoulder><intensity><value>750</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshoulder>
+<rightshoulder><intensity><value>750</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshoulder>
+<leftelbow><intensity><value>500</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftelbow>
+<rightelbow><intensity><value>500</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightelbow>
+<leftwrist><intensity><value>500</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftwrist>
+<rightwrist><intensity><value>500</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightwrist>
+<lefthand><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></lefthand>
+<righthand><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></righthand>
+<leftcarried><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftcarried>
+<rightcarried><intensity><value>100</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightcarried>
+<finger1><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger1>
+<finger2><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger2>
+<finger3><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger3>
+<finger4><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger4>
+<finger5><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger5>
+<finger6><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger6>
+<finger7><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger7>
+<finger8><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger8>
+<finger9><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger9>
+<finger10><intensity><value>20</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger10>
+<sash><intensity><value>500</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></sash>
+<breast><intensity><value>700</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></breast>
+<gut><intensity><value>700</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></gut>
+<waist><intensity><value>300</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></waist>
+<leftthigh><intensity><value>600</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftthigh>
+<rightthigh><intensity><value>600</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightthigh>
+<leftknee><intensity><value>200</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftknee>
+<rightknee><intensity><value>200</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightknee>
+<leftshin><intensity><value>350</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshin>
+<rightshin><intensity><value>350</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshin>
+<leftfoot><intensity><value>250</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftfoot>
+<rightfoot><intensity><value>250</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightfoot>
+</wearableslots>
+<rollableon>socketable</rollableon>
+<rollableon>consumable</rollableon>
+<rollableon>container</rollableon>
+<used resets="true">0</used>
+</stattype>
+<!--stattype>
+<maximumdurability><value>$input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></maximumdurability>
+<durability><value>rand(0, $maximumdurability)</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></durability>
+<text>$durability/$maximumdurability durability</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<rollableon>wearable</rollableon>
+<requiredon>wearable</requiredon>
+<used resets="true">0</used>
+</stattype-->
+<stattype>
+<volume><value>$input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></volume>
+<volumeremaining><value>rand(0, $volume)</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></volumeremaining>
+<text>$volumeremaining/$volume durability (liters)</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></cost>
+<requiredon>wearable</requiredon>
+<rollableon>wearable</rollableon>
+<wearableslots>
+<head><intensity><value>8</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></head>
+<neck><intensity><value>2.25</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></neck>
+<leftshoulder><intensity><value>3</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshoulder>
+<rightshoulder><intensity><value>3</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshoulder>
+<leftelbow><intensity><value>1.5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftelbow>
+<rightelbow><intensity><value>1.5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightelbow>
+<leftwrist><intensity><value>0.75</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftwrist>
+<rightwrist><intensity><value>0.75</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightwrist>
+<lefthand><intensity><value>0.1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></lefthand>
+<righthand><intensity><value>0.1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></righthand>
+<leftcarried><intensity><value>0.1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftcarried>
+<rightcarried><intensity><value>0.1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightcarried>
+<finger1><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger1>
+<finger2><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger2>
+<finger3><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger3>
+<finger4><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger4>
+<finger5><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger5>
+<finger6><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger6>
+<finger7><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger7>
+<finger8><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger8>
+<finger9><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger9>
+<finger10><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger10>
+<sash><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></sash>
+<breast><intensity><value>14</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></breast>
+<gut><intensity><value>14</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></gut>
+<waist><intensity><value>6</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></waist>
+<leftthigh><intensity><value>8</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftthigh>
+<rightthigh><intensity><value>8</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightthigh>
+<leftknee><intensity><value>2.5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftknee>
+<rightknee><intensity><value>2.5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightknee>
+<leftshin><intensity><value>3.5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshin>
+<rightshin><intensity><value>3.5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshin>
+<leftfoot><intensity><value>1.75</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftfoot>
+<rightfoot><intensity><value>1.75</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightfoot>
+</wearableslots>
+<rollableon>socketable</rollableon>
+<rollableon>consumable</rollableon>
+<rollableon>container</rollableon>
+<comment>for a container to be useful, it's volume often is much more than its mass</comment>
+<used resets="true">0</used>
+</stattype>
+<stattype>
+<mass><value>$input</value><multiplier>1</multiplier><relations><relation><type>direct</type><with>used</with></relation></relations></mass>
+<text>$mass &lt;abbr title="kilograms"&gt;kg&lt;/abbr&gt;</text>
+<cost><value>$input</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></cost>
+<comment>if a stat is required on wearables do its relations actually do anything? only if it is rollable on other types (which it currently is)</comment>
+<requiredon>wearable</requiredon>
+<rollableon>wearable</rollableon>
+<wearableslots>
+<head><intensity><value>8</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></head>
+<neck><intensity><value>2.25</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></neck>
+<leftshoulder><intensity><value>3</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshoulder>
+<rightshoulder><intensity><value>3</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshoulder>
+<leftelbow><intensity><value>1.5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftelbow>
+<rightelbow><intensity><value>1.5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightelbow>
+<leftwrist><intensity><value>0.75</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftwrist>
+<rightwrist><intensity><value>0.75</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightwrist>
+<lefthand><intensity><value>0.1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></lefthand>
+<righthand><intensity><value>0.1</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></righthand>
+<leftcarried><intensity><value>3</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftcarried>
+<rightcarried><intensity><value>3</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightcarried>
+<finger1><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger1>
+<finger2><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger2>
+<finger3><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger3>
+<finger4><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger4>
+<finger5><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger5>
+<finger6><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger6>
+<finger7><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger7>
+<finger8><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger8>
+<finger9><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger9>
+<finger10><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></finger10>
+<sash><intensity><value>0.01</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></sash>
+<breast><intensity><value>14</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></breast>
+<gut><intensity><value>14</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></gut>
+<waist><intensity><value>6</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></waist>
+<leftthigh><intensity><value>8</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftthigh>
+<rightthigh><intensity><value>8</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightthigh>
+<leftknee><intensity><value>2.5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftknee>
+<rightknee><intensity><value>2.5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightknee>
+<leftshin><intensity><value>3.5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftshin>
+<rightshin><intensity><value>3.5</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightshin>
+<leftfoot><intensity><value>1.75</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></leftfoot>
+<rightfoot><intensity><value>1.75</value><multiplier>1</multiplier><relations><relation><type>inverse</type><with>used</with></relation></relations></intensity><used resets="true">0<used></rightfoot>
+</wearableslots>
+<rollableon>socketable</rollableon>
+<rollableon>consumable</rollableon>
+<rollableon>container</rollableon>
+<socketableslots>should there be different intensities according to which slot is socketed into?<socketableslots>
+<used resets="true">0</used>
+</stattype>
+</stattypes>

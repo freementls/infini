@@ -1,0 +1,42 @@
+<skills>
+<skill>
+<skillname>sword attack</skillname>
+<damagetype>slash</damagetype>
+<skillmultiplier>1</skillmultiplier>
+<skillcooldown>0.5</skillcooldown>
+<skillrange>1</skillrange>
+<cost>15</cost>
+</skill>
+<skill>
+<skillname>blunt attack</skillname>
+<damagetype>impact</damagetype>
+<skillmultiplier>1.5</skillmultiplier>
+<skillcooldown>0.8</skillcooldown>
+<skillrange>1</skillrange>
+<cost>20</cost>
+</skill>
+<skill>
+<skillname>spear attack</skillname>
+<damagetype>pierce</damagetype>
+<skillmultiplier>1</skillmultiplier>
+<skillcooldown>0.8</skillcooldown>
+<skillrange>2</skillrange>
+<cost>20</cost>
+</skill>
+<skill>
+<skillname>gun attack</skillname>
+<damagetype>pierce</damagetype>
+<skillmultiplier>1.5</skillmultiplier>
+<skillcooldown>0.8</skillcooldown>
+<skillrange>3</skillrange>
+<cost>25</cost>
+</skill>
+<skill>
+<skillname>bow attack</skillname>
+<damagetype>pierce</damagetype>
+<skillmultiplier>1</skillmultiplier>
+<skillcooldown>1.2</skillcooldown>
+<skillrange>4</skillrange>
+<cost>15</cost>
+</skill>
+</skills>

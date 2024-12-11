@@ -1,0 +1,29 @@
+<shiptypes>
+<shiptype>
+<id>0</id>
+<name>studly</name>
+<speed>5</speed>
+<weapon>
+<type>standard laser</type>
+</weapon>
+<weapon>
+<type>standard missile</type>
+</weapon>
+<weapon>
+<type>standard fighter</type>
+</weapon>
+<comment>different effectivenesses at different ranges? danger of using at too close range?</comment>
+</shiptype>
+<shiptype>
+<id>1</id>
+<name>cruiser</name>
+<speed>10</speed>
+<weapon>
+<type>standard laser</type>
+</weapon>
+<weapon>
+<type>standard missile</type>
+</weapon>
+<comment>different effectivenesses at different ranges? danger of using at too close range?</comment>
+</shiptype>
+</shiptypes>
